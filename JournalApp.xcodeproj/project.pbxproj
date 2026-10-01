@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		878E712E306E7B52006ADE16 /* Journal_Code_Review.md in Resources */ = {isa = PBXBuildFile; fileRef = 878E712D306E7B52006ADE16 /* Journal_Code_Review.md */; };
+		A10000000000000000000001 /* JournalAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* JournalAppApp.swift */; };
+		A10000000000000000000002 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* JournalEntry.swift */; };
+		A10000000000000000000003 /* JournalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* JournalStore.swift */; };
+		A10000000000000000000004 /* JournalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* JournalListView.swift */; };
+		A10000000000000000000005 /* EntryEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* EntryEditorView.swift */; };
+		A10000000000000000000006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* Assets.xcassets */; };
+		A10000000000000000000007 /* JournalEntryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* JournalEntryTests.swift */; };
+		A10000000000000000000008 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* XCTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A30000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50000000000000000000001;
+			remoteInfo = JournalApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		878E712D306E7B52006ADE16 /* Journal_Code_Review.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Journal_Code_Review.md; sourceTree = "<group>"; };
+		A20000000000000000000001 /* JournalAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalAppApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* JournalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* JournalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListView.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* EntryEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryEditorView.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000000000000000000007 /* JournalEntryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryTests.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = System/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
+		A20000000000000000000009 /* JournalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JournalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2000000000000000000000A /* JournalAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JournalAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000008 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		878E712C306E7B30006ADE16 /* github */ = {
+			isa = PBXGroup;
+			children = (
+				878E712D306E7B52006ADE16 /* Journal_Code_Review.md */,
+			);
+			path = github;
+			sourceTree = "<group>";
+		};
+		A60000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				878E712C306E7B30006ADE16 /* github */,
+				A60000000000000000000002 /* JournalApp */,
+				A60000000000000000000003 /* JournalAppTests */,
+				A60000000000000000000004 /* Products */,
+				A60000000000000000000005 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A60000000000000000000002 /* JournalApp */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* JournalAppApp.swift */,
+				A20000000000000000000002 /* JournalEntry.swift */,
+				A20000000000000000000003 /* JournalStore.swift */,
+				A20000000000000000000004 /* JournalListView.swift */,
+				A20000000000000000000005 /* EntryEditorView.swift */,
+				A20000000000000000000006 /* Assets.xcassets */,
+			);
+			path = JournalApp;
+			sourceTree = "<group>";
+		};
+		A60000000000000000000003 /* JournalAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000007 /* JournalEntryTests.swift */,
+			);
+			path = JournalAppTests;
+			sourceTree = "<group>";
+		};
+		A60000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000009 /* JournalApp.app */,
+				A2000000000000000000000A /* JournalAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A60000000000000000000005 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000008 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* JournalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70000000000000000000002 /* Build configuration list for PBXNativeTarget "JournalApp" */;
+			buildPhases = (
+				A40000000000000000000003 /* Sources */,
+				A40000000000000000000001 /* Frameworks */,
+				A40000000000000000000005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JournalApp;
+			productName = JournalApp;
+			productReference = A20000000000000000000009 /* JournalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A50000000000000000000002 /* JournalAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70000000000000000000003 /* Build configuration list for PBXNativeTarget "JournalAppTests" */;
+			buildPhases = (
+				A40000000000000000000004 /* Sources */,
+				A40000000000000000000002 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = JournalAppTests;
+			productName = JournalAppTests;
+			productReference = A2000000000000000000000A /* JournalAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A50000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					A50000000000000000000002 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A50000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = A70000000000000000000001 /* Build configuration list for PBXProject "JournalApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A60000000000000000000001;
+			productRefGroup = A60000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001 /* JournalApp */,
+				A50000000000000000000002 /* JournalAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A40000000000000000000005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000006 /* Assets.xcassets in Resources */,
+				878E712E306E7B52006ADE16 /* Journal_Code_Review.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A40000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* JournalAppApp.swift in Sources */,
+				A10000000000000000000002 /* JournalEntry.swift in Sources */,
+				A10000000000000000000003 /* JournalStore.swift in Sources */,
+				A10000000000000000000004 /* JournalListView.swift in Sources */,
+				A10000000000000000000005 /* EntryEditorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40000000000000000000004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000007 /* JournalEntryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A80000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50000000000000000000001 /* JournalApp */;
+			targetProxy = A30000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B10000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B10000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B10000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.JournalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B10000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.JournalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B10000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.JournalAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JournalApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JournalApp";
+			};
+			name = Debug;
+		};
+		B10000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.JournalAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JournalApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JournalApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A70000000000000000000001 /* Build configuration list for PBXProject "JournalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10000000000000000000001 /* Debug */,
+				B10000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70000000000000000000002 /* Build configuration list for PBXNativeTarget "JournalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10000000000000000000003 /* Debug */,
+				B10000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70000000000000000000003 /* Build configuration list for PBXNativeTarget "JournalAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10000000000000000000005 /* Debug */,
+				B10000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90000000000000000000001 /* Project object */;
+}
